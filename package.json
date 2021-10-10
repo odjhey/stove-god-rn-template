@@ -1,5 +1,5 @@
 {
-  "name": "stovegodrntemplate",
+  "name": "stove-god-rn-template",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,19 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.9",
+    "@react-native-community/netinfo": "^6.0.2",
+    "@react-navigation/bottom-tabs": "^6.0.8",
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/native-stack": "^6.2.2",
+    "mobx": "^6.3.3",
+    "mobx-react-lite": "^3.2.1",
+    "mobx-state-tree": "^5.0.3",
     "react": "17.0.2",
-    "react-native": "0.66.0"
+    "react-native": "0.66.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
